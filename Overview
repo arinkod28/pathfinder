@@ -1,0 +1,21 @@
+Step 1: Head over to https://serpapi.com/users/sign_in and https://huggingface.co/ make accounts on both websites, and then head on to the next step. 
+
+Step2: Get your keys from each website, and plug them into server.js. It is at the very top and is labled, you cannot miss it.
+
+Step3: open up a powershell window, and enter into the "pathfinder" folder, wherever you downloaded and saved it to
+
+Step4: within the root pathfinder folder run the command:  node server.js
+
+Step4: make another powershell window that is in the pathfinder folder, but enter into the client folder
+
+Step5: run: npm start
+
+
+
+Troubleshooting:
+
+If the react server gives a error but the app loads, there is something wrong with your keys, hugging face only allows a certain amount of uses, so if you want to do many searches
+consider making multiple keys across other accounts, or tweaking the code to take your prefered api. 
+
+if the app just isnt working, make sure you have node.js installed, and axios installed "npm install express axios" (within the project folder), and if it doesnt work in the react app,
+download axios in the client folder as well. 
